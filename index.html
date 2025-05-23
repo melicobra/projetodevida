@@ -6,36 +6,111 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Liter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+   <body>
+    <section class="conteudo-principal">
+        <h2 class="titulo-principal">Meus objetivos do ano<span>_</span></h2>
+        <div class="conteudo">
+            <div class="botoes">
+                <button class="botao ativo">Começar a trabalhar</button>
+                <button class="botao">Estudar</button>
+                <button class="botao">Fazer academia</button>
+                <button class="botao">Ir bem no enem</button>
+            </div>
+            <div class="abas-textos">
+                <div class="aba-conteudo ativo">
+                    <h3 class="aba-conteudo-titulo-principal">Começar a trabalhar</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">2 meses</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias0"></p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas0"></p>
+                            <p class="contador-digito-texto">horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min0"></p>
+                            <p class="contador-digito-texto">min</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg0"></p>
+                            <p class="contador-digito-texto">seg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Estudar</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">1 ano</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias1"></p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas1"></p>
+                            <p class="contador-digito-texto">horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min1"></p>
+                            <p class="contador-digito-texto">min</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg1"></p>
+                            <p class="contador-digito-texto">seg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Fazer academia</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">2 meses</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias2"></p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas2"></p>
+                            <p class="contador-digito-texto">horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min2"></p>
+                            <p class="contador-digito-texto">min</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg2"></p>
+                            <p class="contador-digito-texto">seg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Ir bem no enem</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">5 meses</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias3"></p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas3"></p>
+                            <p class="contador-digito-texto">horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min3"></p>
+                            <p class="contador-digito-texto">min</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg3"></p>
+                            <p class="contador-digito-texto">seg</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body> <link rel="stylesheet" href="style.css">
     <title>Projeto de vida</title>
 </head>
-<body>
-<section>
-    <h2>Meus Objetivos do Ano</h2>
-    <div>
-        <button>Começar a trabalhar</button>
-        <button>Estudar</button>
-        <button>Começar fazer academia</button>
-        <button>Ir bem no enem</button>
-    </div>
-    <div class="abas-textos">
-        <div class="abas-conteudo ativo">
-            <h3 class="aba-conteudo-titulo-principal">Começar a trabalhar</h3>
-            <h4 class="aba-conteudo-titulo-secundario">2 meses</h4>
-        </div>
-        <div class="abas-conteudo">
-            <h3 class="aba-conteudo-titulo-principal">Estudar</h3>
-            <h4 class="aba-conteudo-titulo-secundario">O ano todo</h4>
-        </div>
-        <div class="abas-conteudo">
-            <h3 class="aba-conteudo-titulo-principal">Começar a fazer academia</h3>
-            <h4 class="aba-conteudo-titulo-secundario">2 meses</h4>
-        </div>
-        <div class="abas-conteudo">
-            <h3 class="aba-conteudo-titulo-principal">Ir bem no enem</h3>
-            <h4 class="aba-conteudo-titulo-secundario">6 meses</h4>
-        </div>
-</section>
-<script></script>
-</body>
+
 </html>
