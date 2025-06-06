@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Liter&display=swap');
 
 :root {
-    --cor-de-fundo: #FFFFFF;
-    --rosa-claro: #F08080;
-    --branco: #CD5C5C;
+    --cor-de-fundo: #D3D3D3;
+    --indigo: #CD5C5C;
+    --preto: #000000;
     --botao-ativo: #3A375E;
     --botao-inativo: rgba((105,105,105));
-    --texto-fundo: rgba(0, 0, 0);
+    --texto-fundo: rgba(79, 79, 79);
 }
 
 body {
